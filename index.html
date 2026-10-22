@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A student portfolio exploring web development, AI-assisted coding, and DevOps fundamentals.">
+  <title>Abdul Ahad | Digital Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="page-glow glow-one"></div>
+  <div class="page-glow glow-two"></div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Abdul Ahad home"><span class="brand-mark">A.</span><span>abdul<span class="muted">ahad</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a><a href="#interests">Interests</a><a href="#workflow">DevOps workflow</a>
+        <a class="nav-cta" href="#contact">Let's connect <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> BS Computer Science · Student portfolio</div>
+        <h1>Curious mind.<br><span class="gradient-text">Builder's mindset.</span></h1>
+        <p class="hero-intro">I'm Abdul Ahad — a computer science student exploring how thoughtful design, emerging AI tools, and reliable development workflows can turn ideas into useful digital experiences.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#about">Explore my profile <span>↓</span></a><a class="button button-quiet" href="#workflow"><span class="play-icon">▶</span> See the workflow</a></div>
+        <div class="hero-meta"><div class="avatar-stack"><span>A</span><span>AI</span><span>{ }</span></div><p>Learning by building<br><strong>One project at a time.</strong></p></div>
+      </div>
+      <div class="hero-visual" aria-label="Decorative code card">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="floating-chip chip-top"><span class="chip-icon">✦</span> AI-assisted development</div>
+        <div class="code-window">
+          <div class="window-top"><div class="window-dots"><i></i><i></i><i></i></div><span>hello-world.js</span><span class="window-status">● saved</span></div>
+          <div class="code-body">
+            <div><span class="line-number">01</span><span class="code-purple">const</span> <span class="code-blue">idea</span> = <span class="code-green">"something useful"</span>;</div>
+            <div><span class="line-number">02</span></div>
+            <div><span class="line-number">03</span><span class="code-purple">function</span> <span class="code-yellow">build</span>(idea) {</div>
+            <div><span class="line-number">04</span>&nbsp;&nbsp;<span class="code-purple">return</span> <span class="code-blue">learn</span>(idea)</div>
+            <div><span class="line-number">05</span>&nbsp;&nbsp;&nbsp;&nbsp;.<span class="code-yellow">create</span>()</div>
+            <div><span class="line-number">06</span>&nbsp;&nbsp;&nbsp;&nbsp;.<span class="code-yellow">improve</span>();</div>
+            <div><span class="line-number">07</span>}</div>
+            <div><span class="line-number">08</span></div>
+            <div><span class="line-number">09</span><span class="code-comment">// progress, not perfection.</span></div>
+            <div class="terminal-line"><span>➜</span> <span>project ready</span><b class="cursor"></b></div>
+          </div>
+        </div>
+        <div class="floating-chip chip-bottom"><span class="git-symbol">⑂</span> <span><strong>Git + GitHub</strong><small>Versioned & shareable</small></span></div>
+        <div class="visual-caption">IDEAS → CODE → IMPACT</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> Scroll to explore</a>
+    </section>
+
+    <section class="trust-strip">
+      <div class="container strip-inner"><span>ALWAYS LEARNING</span><i></i><span>DESIGN MINDED</span><i></i><span>TECHNOLOGY CURIOUS</span><i></i><span>BUILT WITH PURPOSE</span></div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading"><p class="section-kicker">01 / A LITTLE ABOUT ME</p><h2>Technology is more than code.<br><span class="muted">It's a way to solve problems.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-card profile-card"><div class="profile-top"><div class="profile-avatar">AA</div><div><h3>Abdul Ahad</h3><p>Computer Science Student</p></div><span class="verified">✦</span></div><div class="profile-divider"></div><p class="card-copy">Currently studying computer science at COMSATS University Islamabad, Abbottabad Campus. I enjoy exploring practical technology, creative digital products, and the systems that help teams build and ship software.</p><div class="profile-tags"><span>Computer Science</span><span>Product Thinking</span><span>Continuous Learning</span></div></div>
+        <div class="values-list">
+          <article class="value-item"><div class="value-icon violet">⌘</div><div><h3>Think clearly</h3><p>Break a big challenge into smaller, understandable steps before jumping into a solution.</p></div><span class="value-number">01</span></article>
+          <article class="value-item"><div class="value-icon mint">✧</div><div><h3>Design for people</h3><p>Build experiences that feel simple, accessible, and genuinely helpful to the person using them.</p></div><span class="value-number">02</span></article>
+          <article class="value-item"><div class="value-icon amber">↗</div><div><h3>Keep improving</h3><p>Use feedback, experimentation, and good tools to make each version better than the last.</p></div><span class="value-number">03</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="interests"><div class="container">
+      <div class="section-heading"><p class="section-kicker">02 / WHAT I'M EXPLORING</p><h2>Interests that keep<br><span class="muted">my curiosity switched on.</span></h2><p class="section-description">A few areas where creativity and technology meet — and where I want to keep growing.</p></div>
+      <div class="interest-grid">
+        <article class="interest-card"><div class="interest-top"><span class="interest-icon purple">✳</span><span class="card-index">01</span></div><h3>AI-assisted development</h3><p>Using AI coding assistants to brainstorm, generate starter code, explain errors, and iterate responsibly.</p><div class="mini-tags"><span>AI tools</span><span>Productivity</span></div></article>
+        <article class="interest-card"><div class="interest-top"><span class="interest-icon blue">◈</span><span class="card-index">02</span></div><h3>UI/UX & product design</h3><p>Turning user needs into clean layouts, clear navigation, and digital products that make sense.</p><div class="mini-tags"><span>Figma</span><span>Prototyping</span></div></article>
+        <article class="interest-card"><div class="interest-top"><span class="interest-icon green">⌘</span><span class="card-index">03</span></div><h3>Git & DevOps basics</h3><p>Learning to track changes, maintain project history, collaborate, and publish code reliably.</p><div class="mini-tags"><span>Git</span><span>GitHub</span></div></article>
+      </div>
+    </div></section>
+
+    <section class="section container" id="workflow">
+      <div class="section-heading"><p class="section-kicker">03 / THIS LAB ASSIGNMENT</p><h2>From first prompt<br><span class="muted">to a versioned project.</span></h2><p class="section-description">This website demonstrates a simple AI-augmented static site workflow. The steps below are the intended process; run the commands locally and verify each result yourself.</p></div>
+      <div class="workflow-layout">
+        <div class="workflow-intro"><div class="workflow-badge">THE DEVOPS LOOP</div><h3>Small steps.<br>Traceable progress.</h3><p>Version control gives every change a history. A remote repository makes the project easier to share, review, and continue from another machine.</p><div class="workflow-note"><span>✦</span><p><strong>Remember:</strong> AI can help create code, but you should still review it, run it, and understand what you submit.</p></div></div>
+        <div class="steps">
+          <article class="step"><span class="step-number">01</span><div><h4>Create the website</h4><p>Use an AI coding assistant to generate and refine <code>index.html</code>, <code>style.css</code>, and <code>script.js</code>.</p></div><span class="step-state">CREATE</span></article>
+          <article class="step"><span class="step-number">02</span><div><h4>Initialize Git</h4><p>Start a repository in the project folder and inspect its status.</p><code class="command">git init</code></div><span class="step-state">TRACK</span></article>
+          <article class="step"><span class="step-number">03</span><div><h4>Stage and commit</h4><p>Stage the website files and save the first snapshot.</p><code class="command">git add .</code><code class="command">git commit -m "Initial website commit"</code></div><span class="step-state">SAVE</span></article>
+          <article class="step"><span class="step-number">04</span><div><h4>Connect GitHub</h4><p>Create an empty public repository, then connect it as <code>origin</code>.</p><code class="command">git remote add origin YOUR_REPOSITORY_URL</code><code class="command">git remote -v</code></div><span class="step-state">CONNECT</span></article>
+          <article class="step"><span class="step-number">05</span><div><h4>Push and verify</h4><p>Publish the local history and confirm the files appear on GitHub.</p><code class="command">git branch -M main</code><code class="command">git push -u origin main</code></div><span class="step-state">SHARE</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote-section"><div class="container quote-inner"><div class="quote-mark">“</div><blockquote>The best way to learn a tool is to use it to build something real.</blockquote><p>BUILD · TEST · LEARN · REPEAT</p></div></section>
+
+    <section class="section container" id="contact"><div class="contact-card"><div><p class="section-kicker">04 / WHAT'S NEXT?</p><h2>Every project starts<br>with a <span class="gradient-text">first commit.</span></h2><p class="contact-copy">This is a starting point — a place to practise building, documenting, and sharing work. The next version will be better because the process makes room for improvement.</p></div><a class="button button-primary" href="#home">Back to top <span>↑</span></a><div class="contact-decoration">{"}"</div></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">A.</span><span>abdul<span class="muted">ahad</span></span></a><p>Designed and built for an AI-augmented web development lab.</p><span class="footer-year">© <span id="year">2026</span> · Learning in public</span></div></footer>
+</body>
+</html>
